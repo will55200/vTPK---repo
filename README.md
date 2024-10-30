@@ -14,11 +14,11 @@ To run this script you need to make sure that the name of your AOI and your AOIs
 This script does not requre the user to have vector tile indexs for their AOI(s). A index will be generated on the fly for each AOI. This does add processing time but reduces the ammount of data that you need to manage. 
 
 # Known Issues
-Your vtpk output may have labels that extend outside of your AOI. This is because of the way the vtpk geoprocessing tool splits the tiles and the style of the data. As you zoom into your vtpk you will see that only the data inside your AOI will show. I have spoken to esri about this and they have put in a enhancement request (ENH - 000169523)
+Your vtpk output may have labels that extend outside of your AOI. This is because of the way the vtpk geoprocessing tool splits the tiles and the style of the data. As you zoom into your vtpk you will see that only the data inside your AOI will show. I have spoken to esri about this and they have put in a enhancement request (ENH - 000169523).
 ![image](https://github.com/user-attachments/assets/970e1d4b-fd61-415a-a65f-5110a6224791)
 # Resources 
 Python CIM access - esri documentation - https://pro.arcgis.com/en/pro-app/3.1/arcpy/mapping/python-cim-access.htm
-ArcGIS Pro 3.3 API Reference CIMMap Class - https://pro.arcgis.com/en/pro-app/latest/sdk/api-reference/topic2824.html
+ArcGIS Pro 3.3 API Reference CIMMap Class - https://pro.arcgis.com/en/pro-app/latest/sdk/api-reference/topic2824.html  
 Create Vector Tile Package - esri documentation - https://pro.arcgis.com/en/pro-app/latest/tool-reference/data-management/create-vector-tile-package.htm
 
 ## Thanks
